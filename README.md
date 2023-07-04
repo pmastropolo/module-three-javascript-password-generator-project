@@ -2,7 +2,7 @@
 
 ## Description
 
-Created an application to generate a random password. I was provided with some starter code to get started. Client wanted an application to generate stronger passwords, therefore providing better security. When you click the button on the website, it should generate a password. Password should be at least 8 characters, and no more than 128 characters. 
+Created an application to generate a random password with Javascript. I was provided with some starter code. HTML and CSS was already provided. Client wanted an application to generate stronger passwords, therefore providing better security. When you first enter the website, you should be greeted with a prompt asking, How many characters would you like im your password? There should be confirm questions next asking if you would like numbers, lower case characters, upper case characters, or any special characters. Depending on user choice, script should generate a random password based on user selections. 
 
 ## Table of Contents:file_folder:
 - [Installation](#installation)
@@ -51,8 +51,6 @@ Here are the following links I used to help write my code:
 [Conditional branching](https://javascript.info/ifelse)
 
 [Pseudo Code Guide](https://git.bootcampcontent.com/University-of-California---Davis/UCD-VIRT-FSF-PT-06-2023-U-LOLC/-/blob/main/03-JavaScript/pseudo_code_guide.js)
-
-[isNaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
 
 [Concat Array](https://www.w3schools.com/jsref/jsref_concat_array.asp)
 
