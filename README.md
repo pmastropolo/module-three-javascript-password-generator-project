@@ -18,10 +18,13 @@ Created an application to generate a random password with Javascript. I was prov
 
 I was provided a screenshot of what my work should look like.:arrow_down: 
 
-(![Password Generator Screenshot](assets/images/03-javascript-homework-demo.png))
+(![Password Generator Screenshot](assets/images/03-javascript-homework-demo.png)
 
 <br> 
 
+I was also provided with Javascript starter code: 
+
+(![Starter Code Screenshot]
 
 Github link: https://github.com/pmastropolo/module-three-javascript-password-generator-project
 
