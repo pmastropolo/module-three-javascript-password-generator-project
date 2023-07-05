@@ -72,6 +72,8 @@ Here are the following links I used to help write my code:
 
 [Javascript Numbers](https://www.w3schools.com/js/js_numbers.asp)
 
+[If, Else](https://www.w3schools.com/js/js_if_else.asp)
+
 ## License
 
 N/A
