@@ -5,40 +5,81 @@ var lowerCaseLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', '
 var upperCaseLetters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var specialCharacters = ['$','*','#','@','&','%','!'];
 
-  // Where User Selects Length Of Password, PROMPT IT UP! 
+
+// Where User Selects Length Of Password, PROMPT IT UP! 
 
   var lengthOfPass = prompt('How many Characters would you like in your new Password?\n\nImportant:\nMinimum of at least 8 characters\nMaximum 128 characters\n\nEnter Input in field');
 
   if (lengthOfPass> 8 && lengthOfPass< 128) {
-    alert("Good Job!")
+    alert("Good Choice")
   }
-    else if (lengthOfPass < 9) {
+
+    else if (lengthOfPass < 8) {
       alert("Need to Add more Characters")
       var lengthOfPass = prompt('How many Characters would you like in your new Password?\n\nImportant:\nMinimum of at least 8 characters\nMaximum 128 characters\n\nEnter Input in field');
     }
+
     else if (lengthOfPass > 129) {
     alert("To many Characters!")
     var lengthOfPass = prompt('How many Characters would you like in your new Password?\n\nImportant:\nMinimum of at least 8 characters\nMaximum 128 characters\n\nEnter Input in field');
     }
-  // Where User Selects Yes or No Questions
+
+  // Where User Selects Yes or No Questions with Confirm
+  // Confirm: Will display and ok or cancel button
 
   var numberConf = confirm('Would you like to add Numbers?'); 
   var lowerCaseConf = confirm('Would you like "lower-case" Letters?');
   var upperCaseConf = confirm('Would you like "UPPER-CASE" Letters?');
   var specialCharactersConf = confirm('Would you like any\n"Special" Characters?\n\nExample:\n $ # * & ! % @');
 
-// Convert upper case to upper case
+// Function to generate password with if Statements & Concat
+// Used Concat to combine text from multiple strings
 
+function generatePassword() {
+  var password = '';
+  var usersChoice = [];
 
-function generatePassword () {
-
-  if (numbersConf === true) { 
-return 
+  if (numberConf) {
+    usersChoice = usersChoice.concat(numbersPassword);
   }
+
+  if (lowerCaseConf) {
+    usersChoice = usersChoice.concat(lowerCaseLetters);
+  }
+
+  if (upperCaseConf) {
+    usersChoice = usersChoice.concat(upperCaseLetters);
+  }
+
+  if (specialCharactersConf) {
+    usersChoice = usersChoice.concat(specialCharacters);
+  }
+
+ 
+  if (usersChoice.length === 0) {
+    alert('Please select at least one character type for your password.');
+    return;
+  }
+
+ // For Loop with map floor and math random
+ // Math floor will give us a rounded number
+ // Math random will generate a random number
+
+  for (var i = 0; i < lengthOfPass; i++) {
+    var randomIndex = Math.floor(Math.random() * usersChoice.length);
+    password += usersChoice[randomIndex];
+  }
+
+  return password;
 
 }
 
+ 
+// Generate and display the password
+// Without document.getElement generate button would not work
 
+var newPassword = generatePassword();
+var password=document.getElementById("password");
 
 
 

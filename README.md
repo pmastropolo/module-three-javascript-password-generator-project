@@ -2,7 +2,7 @@
 
 ## Description
 
-Created an application to generate a random password with Javascript. I was provided with some starter code. HTML and CSS was already provided. Client wanted an application to generate stronger passwords, therefore providing better security. When you first enter the website, you should be greeted with a prompt asking, How many characters would you like im your password? There should be confirm questions next asking if you would like numbers, lower case characters, upper case characters, or any special characters. Depending on user choice, script should generate a random password based on user selections. 
+Created an application to generate a random password with Javascript. I was provided with some starter code. HTML and CSS was already provided. Client wanted an application to generate stronger passwords, therefore providing better security. When you first enter the website, you should be greeted with a prompt asking, How many characters would you like in your password? There should be confirm questions next asking if you would like numbers, lower case characters, upper case characters, or any special characters. Depending on user choice, script should generate a random password based on user selections. User will HAVE TO hit the generate password button to recieve new password.
 
 ## Table of Contents:file_folder:
 - [Installation](#installation)
@@ -18,13 +18,16 @@ Created an application to generate a random password with Javascript. I was prov
 
 I was provided a screenshot of what my work should look like.:arrow_down: 
 
-(![Password Generator Screenshot](assets/images/03-javascript-homework-demo.png)
+![Password Generator Screenshot](assets/images/03-javascript-homework-demo.png)
 
 <br> 
 
-I was also provided with Javascript starter code: 
+I was also provided with Javascript starter code:
 
-(![Starter Code Screenshot]
+![Javascript Starter Code screenshot](assets/images/javascript code screenshot.png)
+
+<br>
+
 
 Github link: https://github.com/pmastropolo/module-three-javascript-password-generator-project
 
@@ -57,21 +60,17 @@ Here are the following links I used to help write my code:
 
 [Concat Array](https://www.w3schools.com/jsref/jsref_concat_array.asp)
 
+[Math Random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
+[Math Floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
 
+[Javascript Loops](https://www.w3schools.com/js/js_loop_for.asp)
 
+[Array Methods](https://www.w3schools.com/js/js_array_methods.asp)
 
+[Javascript Strings](https://www.w3schools.com/js/js_strings.asp)
 
-
-
-
-
-
-
-
-
-
-
+[Javascript Numbers](https://www.w3schools.com/js/js_numbers.asp)
 
 ## License
 
