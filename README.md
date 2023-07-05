@@ -22,11 +22,11 @@ I was provided a screenshot of what my work should look like.:arrow_down:
 
 <br> 
 
-I was also provided with Javascript starter code:
-
-![Javascript Starter Code screenshot](assets/images/javascript code screenshot.png)
-
+I was also provided with Javascript starter code::arrow_down: 
 <br>
+![javascript code screenshot](https://github.com/pmastropolo/module-three-javascript-password-generator-project/assets/135174286/081ece30-a2a7-410e-8759-a8b062ccdb48)
+
+
 
 
 Github link: https://github.com/pmastropolo/module-three-javascript-password-generator-project
