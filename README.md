@@ -31,13 +31,13 @@ I was also provided with Javascript starter code::arrow_down:
 
 Github link: https://github.com/pmastropolo/module-three-javascript-password-generator-project
 
-Portfolio Website Link: 
+Portfolio Website Link: https://pmastropolo.github.io/module-three-javascript-password-generator-project/
 
 ## Usage :open_file_folder:
 
 Github link: https://github.com/pmastropolo/module-three-javascript-password-generator-project
 
-Portfolio Website Link: 
+Portfolio Website Link: https://pmastropolo.github.io/module-three-javascript-password-generator-project/
 
 
 ## Credits
