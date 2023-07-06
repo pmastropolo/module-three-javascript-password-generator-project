@@ -33,9 +33,12 @@ console.log(specialCharacters);
   // Confirm: Will display and ok or cancel button
 
   var numberConf = confirm('Would you like to add Numbers?'); 
+    alert("Three more Questions Left!")
   var lowerCaseConf = confirm('Would you like "lower-case" Letters?');
   var upperCaseConf = confirm('Would you like "UPPER-CASE" Letters?');
+  alert("Almost There!")
   var specialCharactersConf = confirm('Would you like any\n"Special" Characters?\n\nExample:\n $ # * & ! % @');
+  alert("Make sure to hit the generate password button IN RED to view\nYOUR NEW PASSWORD")
 
   //Console.Log of how long user wanted password
 console.log(lengthOfPass);
