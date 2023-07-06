@@ -5,6 +5,11 @@ var lowerCaseLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', '
 var upperCaseLetters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 var specialCharacters = ['$','*','#','@','&','%','!'];
 
+// Console Log Above Array Variables
+console.log(numbersPassword);
+console.log(lowerCaseLetters);
+console.log(upperCaseLetters);
+console.log(specialCharacters);
 
 // Where User Selects Length Of Password, PROMPT IT UP! 
 
@@ -31,6 +36,9 @@ var specialCharacters = ['$','*','#','@','&','%','!'];
   var lowerCaseConf = confirm('Would you like "lower-case" Letters?');
   var upperCaseConf = confirm('Would you like "UPPER-CASE" Letters?');
   var specialCharactersConf = confirm('Would you like any\n"Special" Characters?\n\nExample:\n $ # * & ! % @');
+
+  //Console.Log of how long user wanted password
+console.log(lengthOfPass);
 
 // Function to generate password with if Statements & Concat
 // Used Concat to combine text from multiple strings
@@ -73,15 +81,11 @@ function generatePassword() {
   return password;
 
 }
-
- 
 // Generate and display the password
 // Without document.getElement generate button would not work
 
 var newPassword = generatePassword();
 var password=document.getElementById("password");
-
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
